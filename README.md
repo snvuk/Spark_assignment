@@ -53,5 +53,9 @@ Spark is an open-source distributed computing system designed to process large d
  
  A DataFrame is a distributed collection of data organized into named columns, similar to a table in a relational database. DataFrames are a higher-level abstraction built on top of RDDs (Resilient Distributed Datasets), which provide a more structured and optimized view of data.
  
+ ## What is Dataset ##
  
+ A Dataset is a distributed collection of data that provides the benefits of both RDDs and DataFrames in Spark. Like RDDs, Datasets are strongly typed and provide compile-time type safety, while also supporting rich functions and transformations. Like DataFrames, Datasets are optimized for efficient processing and provide a more structured and efficient view of data.
+
+
 
