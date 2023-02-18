@@ -17,3 +17,41 @@ MapReduce is a programming model and processing framework for large-scale distri
 ## Hive ##
 
 Hive is an open-source data warehousing and SQL-like query language that is built on top of Hadoop Distributed File System (HDFS) and Apache Hadoop. 
+
+# Spark
+
+## Spark Introduction ##
+
+Spark is an open-source distributed computing system designed to process large datasets across a cluster of computers. It was developed at the University of California, Berkeley's AMPLab and is now maintained by the Apache Software Foundation.
+
+## Spark Features ##
+
+- Fast Processing
+- Flexibility
+- Fault tolerance
+- In-memory computing
+- Real-time processing
+- Better analytics
+
+## Spark Architecture ##
+
+- Spark Drive
+- Cluster Manager
+- Executors
+- Spark Context
+- Resilient Distributed Datasets (RDDs)
+
+## Cluster and Configuration ##
+
+ a cluster is a set of computers that work together to process data in parallel. The cluster is managed by a cluster manager, which coordinates the allocation of resources and scheduling of tasks across the nodes in the cluster
+ 
+ ## RDD ##
+ 
+ RDD stands for Resilient Distributed Dataset, which is a fundamental data structure in Spark. An RDD is an immutable, fault-tolerant collection of elements that can be processed in parallel across multiple nodes in a distributed computing environment.
+ 
+ ## Data Frame ##
+ 
+ A DataFrame is a distributed collection of data organized into named columns, similar to a table in a relational database. DataFrames are a higher-level abstraction built on top of RDDs (Resilient Distributed Datasets), which provide a more structured and optimized view of data.
+ 
+ 
+
